@@ -31,4 +31,4 @@ return the DOM image object of the input txt
 
 ##Test environment
 
-Tested on Firefox 20.0 and Chrome 26.0.1410.63
+Tested on Firefox 20.0 and Chrome 26.0.1410.63, please checkout this <a href="http://vxst.github.io/image2txt/sample/sample.html"><span>live sample</span></a> to make sure it will work on your browser.
