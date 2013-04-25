@@ -6,11 +6,11 @@ A client side js script to transform an image to base64 text and back.
 
 ##function list
 
-###function imgtobase64
+###function imgtobase64([HTML Image DOM Object])
 
 return a base64 encoded txt which include the image data.
 
-###function base64toimg(txt)
+###function base64toimg([Base64 String])
 
 return the DOM image object of the input txt
 
