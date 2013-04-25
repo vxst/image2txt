@@ -1,4 +1,4 @@
-#image2txt:libi2t.js
+#<a href="http://vxst.github.io/image2txt/">image2txt:libi2t.js</a>
 
 libi2t.js is all you need to transform an image to base64 text and vice versa!
 
