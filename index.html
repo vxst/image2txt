@@ -1,0 +1,96 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Image2txt</title>
+  <meta name="description" content="A client side js script to transform an image to base64 txt and back.">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Image2txt</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">A client side js script to transform an image to base64 txt and back.</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/vxst/image2txt/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/vxst/image2txt/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/vxst/image2txt" class="code">View Image2txt on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>image2txt:libi2t.js</h1>
+
+<p>libi2t.js is all you need to transform an image to base64 text and vice versa!</p>
+
+<p>A client side js script to transform an image to base64 text and back.</p>
+
+<h2>function list</h2>
+
+<h3>function imgtobase64([HTML Image DOM Object])</h3>
+
+<p>return a base64 encoded txt which include the image data.</p>
+
+<h3>function base64toimg([Base64 String])</h3>
+
+<p>return the DOM image object of the input txt</p>
+
+<h2>Sample code</h2>
+
+<pre><code>var img=new Image();
+img.src='sample.jpg';
+
+$(img).load(function(){
+    $('body').append(img);
+    var txt=imgtobase64(img);
+
+    console.log(txt);
+
+    var ig=base64toimg(txt);
+    $('body').append(ig);
+});
+</code></pre>
+
+<h2>Test environment</h2>
+
+<p>Tested on Firefox 20.0</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/vxst" class="avatar"><img src="https://secure.gravatar.com/avatar/22c3bf37676b1f9441f998a03bf3ad94?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/vxst">vxst</a> maintains <a href="https://github.com/vxst/image2txt">Image2txt</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/vxst/image2txt/tarball/master" class="tar">tar</a><a href="https://github.com/vxst/image2txt/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
