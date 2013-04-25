@@ -31,4 +31,4 @@ return the DOM image object of the input txt
 
 ##Test environment
 
-Tested on Firefox 20.0
+Tested on Firefox 20.0 and Chrome 26.0.1410.63
